@@ -1,7 +1,6 @@
 package com.example.day2cw3.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-
 public class Student {
     private long id;
     private String name;
