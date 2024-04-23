@@ -6,7 +6,7 @@ import com.example.springapp.model.Door;
 import java.util.List;
 
 @Repository
-public interface DoorRepo extends JpaRepository<Door,Integer>{
+public interface AkshayDoorRepo extends JpaRepository<Door,Integer>{
 
     List<Door> findByDoorId(int doorId);
     List<Door> findByAccessType(String accessType);

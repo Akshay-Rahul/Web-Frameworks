@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class Language {
+public class AkshayLanguage {
     @Id
     private int languageId;
     private String languageName;

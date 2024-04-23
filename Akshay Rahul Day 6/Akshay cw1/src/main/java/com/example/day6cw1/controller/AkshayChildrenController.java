@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @RestController
-public class ChildrenController {
+public class AkshayChildrenController {
     public ChildrenService childrenService;
     public ChildrenController(ChildrenService childrenService)
     {

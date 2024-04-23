@@ -14,7 +14,7 @@ import com.example.springapp.model.Person;
 import com.example.springapp.service.PersonService;
 
 @RestController
-public class PersonController {
+public class AkshayPersonController {
     public PersonService personService;
 
     public PersonController(PersonService personService) {

@@ -10,7 +10,7 @@ import com.example.day6cw2.model.Student;
 import com.example.day6cw2.repository.StudentRepo;
 
 @Service
-public class StudentService {
+public class AkshayStudentService {
     public StudentRepo studentRepo;
     public StudentService(StudentRepo studentRepo)
     {

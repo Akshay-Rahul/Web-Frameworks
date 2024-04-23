@@ -7,7 +7,7 @@ import com.example.springapp.model.Village;
 import java.util.List;
 
 @Repository
-public interface VillageRepo extends JpaRepository<Village, Integer> {
+public interface AkshayVillageRepo extends JpaRepository<Village, Integer> {
 
     @Query("select v from Village as v where v.villageName=?1")
     Village findByName(String villageName);

@@ -13,7 +13,7 @@ import com.example.springapp.model.Village;
 import com.example.springapp.service.VillageService;
 
 @RestController
-public class VillageController {
+public class AkshayVillageController {
     @Autowired
     private VillageService ser;
 

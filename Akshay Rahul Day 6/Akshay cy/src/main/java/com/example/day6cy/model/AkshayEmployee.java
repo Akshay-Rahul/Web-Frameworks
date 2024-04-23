@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class Employee {
+public class AkshayEmployee {
     @Id
     private int employeeId;
     private String employeeName;

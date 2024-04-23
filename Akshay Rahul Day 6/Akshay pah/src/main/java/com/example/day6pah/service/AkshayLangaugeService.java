@@ -10,7 +10,7 @@ import com.example.day6pah.model.Language;
 import com.example.day6pah.repository.LanguageRepo;
 
 @Service
-public class LangaugeService {
+public class AkshayLangaugeService {
     public LanguageRepo languageRepo;
     public LangaugeService(LanguageRepo languageRepo)
     {

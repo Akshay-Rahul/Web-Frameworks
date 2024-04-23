@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import com.example.springapp.model.Person;
 
-public interface PersonRepo extends JpaRepository<Person, Integer> {
+public interface AkshayPersonRepo extends JpaRepository<Person, Integer> {
     @Query("SELECT p FROM Person p WHERE age=?1")
     List<Person> findByAge(int age);
 }

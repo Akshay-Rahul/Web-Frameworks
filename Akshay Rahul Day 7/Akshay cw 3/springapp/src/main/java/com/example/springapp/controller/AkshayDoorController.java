@@ -13,7 +13,7 @@ import com.example.springapp.model.Door;
 import com.example.springapp.service.DoorService;
 
 @RestController
-public class DoorController {
+public class AkshayDoorController {
     @Autowired
     private DoorService ser;
     

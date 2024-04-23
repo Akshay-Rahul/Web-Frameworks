@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
-public class StudentController {
+public class AkshayStudentController {
     public StudentService studentService;
     public StudentController(StudentService studentService)
     {

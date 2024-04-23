@@ -7,6 +7,6 @@ import com.example.day6cw1.model.Children;
 
 
 @Repository
-public interface ChildrenRepo extends JpaRepository<Children,Integer>{
+public interface AkshayChildrenRepo extends JpaRepository<Children,Integer>{
     
 }

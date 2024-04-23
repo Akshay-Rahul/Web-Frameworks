@@ -10,7 +10,7 @@ import com.example.day6cy.model.Employee;
 import com.example.day6cy.repository.EmployeeRepo;
 
 @Service
-public class EmployeeService {
+public class AkshayEmployeeService {
     public EmployeeRepo employeeRepo;
     public EmployeeService(EmployeeRepo employeeRepo)
     {

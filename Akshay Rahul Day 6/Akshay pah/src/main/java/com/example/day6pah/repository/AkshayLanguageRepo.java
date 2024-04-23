@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.example.day6pah.model.Language;
 
 @Repository
-public interface LanguageRepo extends JpaRepository<Language,Integer>{
+public interface AkshayLanguageRepo extends JpaRepository<Language,Integer>{
     
 }

@@ -14,7 +14,7 @@ import com.example.day6pah.model.Language;
 import com.example.day6pah.service.LangaugeService;
 
 @RestController
-public class LanguageController {
+public class AkshayLanguageController {
     public LangaugeService langaugeService;
     public LanguageController(LangaugeService langaugeService)
     {

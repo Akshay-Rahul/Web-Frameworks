@@ -9,7 +9,7 @@ import com.example.springapp.model.Village;
 import com.example.springapp.repository.VillageRepo;
 
 @Service
-public class VillageService {
+public class AkshayVillageService {
     @Autowired
     private VillageRepo rep;
 

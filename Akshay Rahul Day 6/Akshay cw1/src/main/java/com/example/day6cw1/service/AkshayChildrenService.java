@@ -11,7 +11,7 @@ import com.example.day6cw1.model.Children;
 import com.example.day6cw1.repository.ChildrenRepo;
 
 @Service
-public class ChildrenService {
+public class AkshayChildrenService {
     public ChildrenRepo childrenRepo;
     public ChildrenService(ChildrenRepo childrenRepo)
     {
