@@ -4,14 +4,14 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class AkshayProduct {
+public class AProduct {
     @Id
     private int id;
     private String productName;
     private int price;
     private String category;
     
-    public AkshayProduct(int id, String productName, int price, String category) {
+    public AProduct(int id, String productName, int price, String category) {
         this.id = id;
         this.productName = productName;
         this.price = price;
@@ -19,7 +19,7 @@ public class AkshayProduct {
     }
 
 
-    public AkshayProduct(){}
+    public AProduct(){}
 
 
     public int getId() {
